@@ -27,7 +27,7 @@ return(
     <View>
   <Header
             
-            centerComponent={{ text: 'Lista', style: { color: '#fff', fontSize:20 } }}
+            centerComponent={{ text: 'Lista', style: { color: '#BA55D3', fontSize:20 } }}
             rightComponent={
                 <Button  
                 title="+"

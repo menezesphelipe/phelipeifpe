@@ -123,7 +123,7 @@ return (
             title="< Voltar"
             onPress={()=>navigation.navigate('Listar')}
             ></Button>}
-            centerComponent={{ text: 'Cadastro de Clientes', style: { color: '#fff' } }}
+            centerComponent={{ text: 'Tela de Cadastro de Clientes', style: { color: '#BA53' } }}
         
         />
         <ScrollView>
@@ -149,7 +149,7 @@ return (
             value={getCpf}
             /> 
 
-            <Text style={styles.titulo}>Digite seu Telefone</Text>
+            <Text style={styles.titulo}>Digite o número do seu telefone</Text>
             <TextInput
             style={{ height: 40,width:300, borderColor: 'gray', borderWidth: 1 }}
             onChangeText={text => setTelefone(text)}
